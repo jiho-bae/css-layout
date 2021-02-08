@@ -1,0 +1,24 @@
+.father {
+  display: flex;
+  height: 50vh;
+  justify-content: space-around;
+
+  /* flex-wrap */
+  flex-wrap: wrap;
+
+  /* flex direction : reverse */
+  flex-direction: row;
+
+  /* align-content */
+  align-content: flex-start;
+}
+.child {
+  background-color: peru;
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
