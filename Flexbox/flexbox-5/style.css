@@ -1,0 +1,21 @@
+.father {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.child {
+  background-color: peru;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* flex-basis */
+  flex-basis: 300px;
+}
+
+.child:nth-child(2) {
+  background-color: black;
+  flex-grow: 1;
+}
