@@ -1,0 +1,25 @@
+.father {
+  display: flex;
+  /* Main Axis */
+  justify-content: space-around;
+  /* Cross Axis */
+  align-items: flex-start;
+  /* flex direction default */
+  height: 50vh;
+}
+.child {
+  background-color: peru;
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+/* align self property */
+.child:nth-child(2) {
+  align-self: center;
+}
+
+/* order property */
+.child:nth-child(1) {
+  order: 1;
+}
