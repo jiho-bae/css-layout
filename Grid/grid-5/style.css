@@ -35,3 +35,7 @@
   background-color: peru;
   grid-row: 2 / span 2;
 }
+.footer {
+  background-color: brown;
+  grid-column: span 4;
+}
