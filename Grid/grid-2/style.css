@@ -1,0 +1,26 @@
+.father {
+  /* grid */
+  display: grid;
+
+  /*grid-template-columns*/
+  grid-template-columns: 250px 250px 250px;
+
+  /* gap
+  gap: 10px;
+   */
+  column-gap: 10px;
+  row-gap: 10px;
+
+  /*grid-template-rows*/
+  grid-template-rows: 30px 50px 100px;
+}
+.child {
+  background-color: peru;
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.child:nth-child(2) {
+  background-color: black;
+}
