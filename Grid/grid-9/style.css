@@ -1,0 +1,30 @@
+.grid {
+  background-color: black;
+  display: grid;
+  gap: 10px;
+  height: 50vh;
+  grid-template-rows: repeat(4, 100px);
+  grid-template-columns: repeat(4, 100px);
+}
+
+.header {
+  background-color: tomato;
+
+  /* align-self, justify-self
+  same place-self..
+
+  align-self: end;
+  justify-self: center;
+
+  place-self: end center;
+  */
+}
+.content {
+  background-color: aqua;
+}
+.nav {
+  background-color: peru;
+}
+.footer {
+  background-color: brown;
+}
