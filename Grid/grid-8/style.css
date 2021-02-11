@@ -1,0 +1,29 @@
+.grid {
+  background-color: black;
+  display: grid;
+  gap: 10px;
+  height: 250vh;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 100px);
+
+  /* justify-content. align-centent 
+  same place-content
+
+  justify-content: center;
+  align-content: stretch;
+  */
+  place-content: stretch center;
+}
+
+.header {
+  background-color: tomato;
+}
+.content {
+  background-color: aqua;
+}
+.nav {
+  background-color: peru;
+}
+.footer {
+  background-color: brown;
+}
