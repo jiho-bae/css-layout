@@ -1,0 +1,16 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(4, 100px);
+  /* minmax
+  It gives you to limit the minimum & maximum size of your box.
+  */
+  grid-template-columns: repeat(10, minmax(100px, 1fr));
+}
+.item:nth-child(even) {
+  background-color: skyblue;
+}
+
+.item:nth-child(odd) {
+  background-color: teal;
+}
