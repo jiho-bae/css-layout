@@ -50,20 +50,20 @@
 - [x] minmax
 - [x] auto-fit
 - [x] auto-fill
-- [] min-content
-- [] max-content
+- [x] min-content
+- [x] max-content
 
 ## SCSS:
 
-- [] Variables
-- [] Nesting
-- [] Mixins
-- [] Extend
-- [] Responsive Mixins
+- [x] Variables
+- [x] Nesting
+- [x] Mixins
+- [x] Extend
+- [x] Responsive Mixins
 
 ## To Clone:
 
-- [] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
+- [x] [https://besthorrorscenes.com/](https://besthorrorscenes.com/)
 - [] [https://paint-box.com/](https://paint-box.com/)
 - [] [http://10x19.co/](http://10x19.co/)
 - [] [http://www.z-o-o.fr/](http://www.z-o-o.fr/)
