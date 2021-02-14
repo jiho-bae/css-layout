@@ -1,6 +1,7 @@
 @import "_variables";
 @import "_mixins";
 @import "_buttons.scss";
+@import "_mixinsContent";
 
 .box {
   margin-top: 10px;
@@ -32,5 +33,22 @@
   button {
     @extend %button;
     border: none;
+  }
+}
+
+.mixinsContent {
+  h1 {
+    @include responsive("iphone") {
+      color: yellow;
+    }
+    @include responsive("iphone-landscape") {
+      color: brown;
+    }
+    @include responsive("ipad") {
+      color: teal;
+    }
+    @include responsive("ipad-landscape") {
+      color: tomato;
+    }
   }
 }
