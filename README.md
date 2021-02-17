@@ -1,6 +1,7 @@
 # SCSS Layout
 
 (S)CSS Layout Masterclass: Flexbox & Grid
+21.02.18 Finished.
 
 ## Flexbox:
 
@@ -72,5 +73,5 @@
 - [x] [https://rodicdavidson.co.uk/](https://rodicdavidson.co.uk/)
 - [x] [https://beige.de/](https://beige.de/)
 - [x] [http://donicaida.com/](http://donicaida.com/)
-- [] [https://canalstreet.market/](https://canalstreet.market/)
+- [x] [https://canalstreet.market/](https://canalstreet.market/)
 - [x] [https://wonhundred.com/](https://wonhundred.com/)
